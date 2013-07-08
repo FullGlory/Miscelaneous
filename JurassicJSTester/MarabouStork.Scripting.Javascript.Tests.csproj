@@ -39,8 +39,9 @@
     <Reference Include="Jurassic">
       <HintPath>..\packages\Jurassic.2.1.1\lib\Jurassic.dll</HintPath>
     </Reference>
-    <Reference Include="MarabouStork.Common.Shared">
-      <HintPath>..\..\..\artifacts\MarabouStork.EnterpriseCrawler\binaries\MarabouStork.Common.Shared.dll</HintPath>
+    <Reference Include="MarabouStork.Common.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\MarabouStork.Common.Shared.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
